@@ -1,3 +1,4 @@
+/* general */
 :root {
     --main-color: #0078FF;
     --secondary-color: #1E1E1E;
@@ -10,7 +11,113 @@
 .secondary-color {
     color: var(--secondary-color) !important;
 }
-.devfolio{
-    background-color: #1E1E1E;
-    height: 100vh;
+
+/* navbar */
+nav{
+    background-color: rgba(0, 0, 0, .11);
+}
+/* header */
+
+header {
+    min-height: 100vh;
+    /* background-color: rgba(0, 0, 0, .5); */
+    background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('/images/hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.header-content h1{
+    font-size: 4rem;
+}
+.header-content p::before {
+    content: '';
+    animation: text-typing 10s infinite alternate;
+}
+
+@keyframes text-typing {
+    /* Typing "Developer" */
+    0% { content: '|'; }
+    1% { content: 'D|'; }
+    2% { content: 'De|'; }
+    3% { content: 'Dev|'; }
+    4% { content: 'Deve|'; }
+    5% { content: 'Devel|'; }
+    6% { content: 'Develo|'; }
+    7% { content: 'Develop|'; }
+    8% { content: 'Developer|'; }
+    
+    /* Deleting "Developer" */
+    10% { content: 'Develop|'; }
+    12% { content: 'Develo|'; }
+    14% { content: 'Devel|'; }
+    16% { content: 'Deve|'; }
+    18% { content: 'Dev|'; }
+    20% { content: 'De|'; }
+    22% { content: '|'; }
+    
+    /* Typing "Designer" */
+    23% { content: 'D|'; }
+    24% { content: 'De|'; }
+    25% { content: 'Des|'; }
+    26% { content: 'Desi|'; }
+    27% { content: 'Desig|'; }
+    28% { content: 'Design|'; }
+    29% { content: 'Designer|'; }
+    
+    /* Deleting "Designer" */
+    31% { content: 'Design|'; }
+    33% { content: 'Desig|'; }
+    35% { content: 'Desi|'; }
+    37% { content: 'Des|'; }
+    39% { content: 'De|'; }
+    41% { content: 'D|'; }
+    43% { content: '|'; }
+    
+    /* Typing "Photographer" */
+    44% { content: 'P|'; }
+    45% { content: 'Ph|'; }
+    46% { content: 'Pho|'; }
+    47% { content: 'Phot|'; }
+    48% { content: 'Photo|'; }
+    49% { content: 'Photog|'; }
+    50% { content: 'Photogr|'; }
+    51% { content: 'Photogra|'; }
+    52% { content: 'Photograp|'; }
+    53% { content: 'Photograph|'; }
+    54% { content: 'Photographer|'; }
+    
+    /* Deleting "Photographer" */
+    56% { content: 'Photograph|'; }
+    58% { content: 'Photograp|'; }
+    60% { content: 'Photogra|'; }
+    62% { content: 'Photogr|'; }
+    64% { content: 'Photog|'; }
+    66% { content: 'Photo|'; }
+    68% { content: 'Phot|'; }
+    70% { content: 'Pho|'; }
+    72% { content: 'Ph|'; }
+    74% { content: 'P|'; }
+    76% { content: '|'; }
+    
+    /* Typing "Freelancer" */
+    77% { content: 'F|'; }
+    78% { content: 'Fr|'; }
+    79% { content: 'Fre|'; }
+    80% { content: 'Free|'; }
+    81% { content: 'Freel|'; }
+    82% { content: 'Freela|'; }
+    83% { content: 'Freelan|'; }
+    84% { content: 'Freelance|'; }
+    85% { content: 'Freelancer|'; }
+    
+    /* Deleting "Freelancer" */
+    87% { content: 'Freelance|'; }
+    89% { content: 'Freelan|'; }
+    91% { content: 'Freela|'; }
+    93% { content: 'Freel|'; }
+    94% { content: 'Free|'; }
+    95% { content: 'Fre|'; }
+    96% { content: 'Fr|'; }
+    107% { content: 'F|'; }
+    100% { content: '|'; }
+    
 }
