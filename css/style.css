@@ -1,0 +1,12 @@
+:root {
+    --main-color: #0078FF;
+    --secondary-color: #1E1E1E;
+}
+
+.main-color {
+    color: var(--main-color);
+}
+
+.secondary-color {
+    color: var(--secondary-color);
+}
