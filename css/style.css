@@ -2,8 +2,6 @@
 :root {
     --main-color: #0078FF;
     --secondary-color: #1E1E1E;
-    --secondary-color: #1E1E1E;
-    --light-gray: #1E1E1E;
 }
 
 .main-color {
@@ -51,7 +49,7 @@ body {
 
 /* navbar */
 nav {
-    background-color: rgba(0, 0, 0, .11);
+    background-color: rgba(0, 0, 0,.9);
 }
 
 /* header */
@@ -383,9 +381,6 @@ header {
 
 /* services */
 
-.row > *{
-    
-}
 .service-container i {
     font-size: 2rem;
     padding: 1.7rem;
@@ -398,5 +393,41 @@ header {
     color: white;
     background-color: #0078FF;
     border: solid 8px lightblue;
+}
 
+/* layer */
+
+.contaniers-section{
+    background-image: url(/images/counters-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    /* z-index: 5; */
+}
+.layer {
+    background-color: rgba(0, 120, 255,.3);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.contaniers-section i {
+    font-size: 2rem;
+    padding: 1.5rem;
+    border: solid 8px rgb(255, 255, 255);
+    color: white;
+    border-radius: 100%;
+    transition: .5s;
+}
+
+.contaniers-section span {
+    color: white;
+}
+
+.contaniers-section p {
+    font-size: 2rem;
+    color: white;
 }
