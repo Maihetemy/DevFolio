@@ -49,7 +49,7 @@ body {
 
 /* navbar */
 nav {
-    background-color: rgba(0, 0, 0,.9);
+    background-color: rgba(0, 0, 0, .9);
 }
 
 /* header */
@@ -379,6 +379,13 @@ header {
     background-color: var(--main-color);
 }
 
+.custom-background-image {
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+}
+
 /* services */
 
 .service-container i {
@@ -395,18 +402,10 @@ header {
     border: solid 8px lightblue;
 }
 
-/* layer */
+/* blue layer */
 
-.contaniers-section{
-    background-image: url(/images/counters-bg.jpg);
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    position: relative;
-    /* z-index: 5; */
-}
-.layer {
-    background-color: rgba(0, 120, 255,.3);
+.blue-layer {
+    background-color: rgba(0, 120, 255, .7);
     position: absolute;
     width: 100%;
     height: 100%;
@@ -430,4 +429,10 @@ header {
 .contaniers-section p {
     font-size: 2rem;
     color: white;
+}
+
+/* carousel */
+
+.carousel-style{
+    height: 100vh;
 }
