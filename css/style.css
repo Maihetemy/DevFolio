@@ -7,6 +7,9 @@
 .main-color {
     color: var(--main-color) !important;
 }
+.main-color-bg {
+    background-color: var(--main-color) !important;
+}
 
 .secondary-color {
     color: var(--secondary-color) !important;
@@ -435,4 +438,15 @@ header {
 
 .carousel-style{
     height: 100vh;
+}
+
+/* blog */
+#blog .card a{
+    text-decoration: none;
+    color: black;
+    transition: .5s;
+
+}
+#blog .card a:hover{
+    color: var(--main-color);
 }
